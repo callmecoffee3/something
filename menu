@@ -1,48 +1,41 @@
-do_a_show= { }
+# function to display program sections
+def do_a_show=()
+     print ("f = {")
+     for section,content in
+    program_sections.items():
+     print (f"
+'{section}': {content},"
+)
 
- 
+# program sections 
+program sections ={ 
+
 p. = menu
-
 p.contacts= [ ]  
-
 p.feeds=[
   {'news',:'sports',: 'entertainment',:} 
 ]  
 p.legals= [ ]
-
 p.settings= [ ]
-
 p.studio= [  ]
-
 p.sidebars= [ ]
-
 p.creators= [ ]
-
 p.personals= [ ]
-
 p.account-type= [ ]
-
 p.updates= [ ]
-
 p.follows= [ ]
-
 p.followers= [ ]
-
 p.likes= [ ]
-
 p.videos= [ ]
-
 p.sounds= [ ]
-
 p.post= [ ]
-
 p.shop= [
      {'shop balance':100} 
 {'shop name':  matt grosso }   ] 
 
 p.chat= [ ]
-
 p.@cORE= [ ]
+}
 		(
 # Program Sections
 program_sections = {
@@ -74,3 +67,4 @@ def do_a_show():
 
 # Call the function to display the sections
 do_a_show()
+print("}") 
