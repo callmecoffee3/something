@@ -1,0 +1,70 @@
+class Program:
+    def __init__(self, contacts, feeds, legal_settings, studio_sidebars, gators, personals, shop_account, type_of_updates):
+        self.contacts = contacts
+        self.feeds = feeds
+        self.legal_settings = legal_settings
+        self.studio_sidebars = studio_sidebars
+        self.gators = gators
+        self.personals = personals
+        self.shop_account = shop_account
+        self.type_of_updates = type_of_updates
+
+    def get_contacts(self):
+        return self.contacts
+
+    def get_feeds(self):
+        return self.feeds
+
+    def get_legal_settings(self):
+        return self.legal_settings
+
+    def get_studio_sidebars(self):
+        return self.studio_sidebars
+
+    def get_gators(self):
+        return self.gators
+
+    def get_personals(self):
+        return self.personals
+
+    def get_shop_account(self):
+        return self.shop_account
+
+    def get_type_of_updates(self):
+        return self.type_of_updates
+
+    def set_contacts(self, contacts):
+        self.contacts = contacts
+
+    def set_feeds(self, feeds):
+        self.feeds = feeds
+
+    def set_legal_settings(self, legal_settings):
+        self.legal_settings = legal_settings
+
+    def set_studio_sidebars(self, studio_sidebars):
+        self.studio_sidebars = studio_sidebars
+
+    def set_gators(self, gators):
+        self.gators = gators
+
+    def set_personals(self, personals):
+        self.personals = personals
+
+    def set_shop_account(self, shop_account):
+        self.shop_account = shop_account
+
+    def set_type_of_updates(self, type_of_updates):
+        self.type_of_updates = type_of_updates
+
+    def __str__(self):
+        return "Program(contacts={contacts}, feeds={feeds}, legal_settings={legal_settings}, studio_sidebars={studio_sidebars}, gators={gators}, personals={personals}, shop_account={shop_account}, type_of_updates={type_of_updates})".format(
+            contacts=self.contacts,
+            feeds=self.feeds,
+            legal_settings=self.legal_settings,
+            studio_sidebars=self.studio_sidebars,
+            gators=self.gators,
+            personals=self.personals,
+            shop_account=self.shop_account,
+            type_of_updates=self.type_of_updates,
+        )
