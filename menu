@@ -11,30 +11,31 @@ def do_a_show=()
 program sections ={ 
 menu = {
 
-'1' : p.contacts= [ ]  
-'2' : p.feeds=[
+'1' : 'p.contacts'= [ ]  
+'2' : 'p.feeds='[
   {'news',:'sports',: 'entertainment',:} 
 ]  
-'3' : p.legals= [ ]
-'4' : p.settings= [ ]
-'5' : p.studio= [  ]
-'6' : p.sidebars= [ ]
-'7' : p.creators= [ ]
-'8' : p.personals= [ ]
-'9' : p.account-type= [ ]
-'10' : p.updates= [ ]
-'11' : p.follows= [ ]
-'12' : p.followers= [ ]
-'13' : p.likes= [ ]
-'14' : p.videos= [ ]
-'15' : p.sounds= [ ]
-'16' : p.post= [ ]
-'17' : p.shop= [
+'3' : 'p.legals'= [ ]
+'4' : 'p.settings=' [ ]
+'5' : 'p.studio'= [  ]
+'6' : 'p.sidebars'= [ ]
+'7' : 'p.creators'= [ ]
+'8' : 'p.personals'= [ ]
+'9' : 'p.account-type'= [ ]
+'10' : 'p.updates'= [ ]
+'11' : 'p.follows'= [ ]
+'12' : 'p.followers'= [ ]
+'13' : 'p.likes'= [ ]
+'14' : 'p.videos'= [ ]
+'15' : 'p.sounds'= [ ]
+'16' : 'p.post'= [ ]
+'17' : 'p.shop'= [
      {'shop balance':100} 
 {'shop name':  matt grosso }   ] 
 
-'18' : p.chat= [ ]
-'19' : p.@cORE= [ ]
+'18' : 'p.chat= [ ]'
+'19' : 'p.@cORE= [ ]'
+'20' : 'exit'
 }
 		(
 # Program Sections
