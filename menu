@@ -1,20 +1,45 @@
-p.contacts = [ ]  
-p.feeds = ['news','sports', 'entertainment',]  
-p.legals= [ ]
-p.settings= [ ]
-p.studio= [  ]
-p.sidebars= [ ]
-p.creators= [ ]
-p.personals= [ ]
-p.account-type= [ ]
-p.updates= [ ]
-p.follows= [ ]
-p.followers= [ ]
-p.likess= [ ]
-p.videos= [ ]
-p.sounds= [ ]
-p.post= [ ]
-p.shop= [{'shop balance'}:100}    ] 
-p.chat= [ ]
-p.@cORE= [ ]
+do_a_show= { }
 
+ 
+p. = menu
+
+p.contacts= [ ]  
+
+p.feeds=[
+  {'news',:'sports',: 'entertainment',:} 
+]  
+p.legals= [ ]
+
+p.settings= [ ]
+
+p.studio= [  ]
+
+p.sidebars= [ ]
+
+p.creators= [ ]
+
+p.personals= [ ]
+
+p.account-type= [ ]
+
+p.updates= [ ]
+
+p.follows= [ ]
+
+p.followers= [ ]
+
+p.likes= [ ]
+
+p.videos= [ ]
+
+p.sounds= [ ]
+
+p.post= [ ]
+
+p.shop= [
+     {'shop balance':100} 
+{'shop name':  matt grosso }   ] 
+
+p.chat= [ ]
+
+p.@cORE= [ ]
