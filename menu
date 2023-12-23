@@ -44,4 +44,25 @@ p.chat= [ ]
 
 p.@cORE= [ ]
 		(
+# Program Sections
+program_sections = {
+    'Contacts': {},
+    'Feeds': {},
+    'Legals': {},
+    'Settings': {},
+    'Studio': {},
+    'Sidebars': {},
+    'Creators': {},
+    'Personals': {},
+    'Shop': {},
+    'Account_Type': {},
+    'Updates': {}
+}
 
+# Function to display program sections
+def do_a_show():
+    for section, content in program_sections.items():
+        print(f"{section}: {content}")
+
+# Call the function to display the sections
+do_a_show()
