@@ -57,6 +57,14 @@ program_sections = {
     'Shop': {},
     'Account_Type': {},
     'Updates': {}
+    'Follows' : {}
+    'follow' : {}
+    'likes' : {}
+    'videos' : {}
+    'posts' : {}
+    'shop' : {}
+    'chat' : {}
+    '@cORE' : {}
 }
 
 # Function to display program sections
