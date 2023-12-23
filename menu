@@ -16,3 +16,5 @@ p.sounds= [ ]
 p.post= [ ]
 p.shop= [{'shop balance'}:100}    ] 
 p.chat= [ ]
+p.@cORE= [ ]
+
